@@ -247,6 +247,21 @@ export default function MangoFarmWebsite() {
   </button>
 
 </form>
+<div className="mt-8 bg-yellow-50 p-6 rounded-2xl shadow-md">
+  <h3 className="text-2xl font-bold mb-4">Payment</h3>
+
+  <p className="text-lg mb-2">
+    Pay using UPI:
+  </p>
+
+  <p className="text-xl font-semibold text-green-600">
+    8106819899@ybl
+  </p>
+
+  <p className="mt-4 text-gray-600">
+    After payment, please share payment screenshot on WhatsApp for order confirmation.
+  </p>
+</div>
           </div>
         </div>
       </section>
