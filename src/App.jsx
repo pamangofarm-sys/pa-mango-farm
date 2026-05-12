@@ -1,3 +1,5 @@
+import qr from './assets/QR code.jpeg'
+
 export default function MangoFarmWebsite() {
   const mangoes = [
     {
@@ -254,14 +256,17 @@ export default function MangoFarmWebsite() {
     Pay using UPI:
   </p>
 
-  <a
-  href="upi://pay?pa=8106819899@ybl&pn=Lingamguntla Praveen Kumar"
-  className="text-xl font-semibold text-green-600 underline"
->
-  Pay via UPI
-</a>
+  <p className="text-xl font-semibold text-green-600 mb-4">
+    8106819899@ybl
+  </p>
 
-  <p className="mt-4 text-gray-600">
+  <img
+    src={qr}
+    alt="UPI QR"
+    className="w-64 rounded-2xl shadow-md mb-4"
+  />
+
+  <p className="text-gray-600">
     After payment, please share payment screenshot on WhatsApp for order confirmation.
   </p>
 </div>
