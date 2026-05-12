@@ -255,7 +255,7 @@ export default function MangoFarmWebsite() {
   </p>
 
   <a
-  href="upi://pay?pa=8106819899@ybl&pn=PA Mango Farm"
+  href="upi://pay?pa=8106819899@ybl&pn=Lingamguntla Praveen Kumar"
   className="text-xl font-semibold text-green-600 underline"
 >
   Pay via UPI
