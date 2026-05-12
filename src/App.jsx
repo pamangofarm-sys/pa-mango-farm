@@ -254,9 +254,12 @@ export default function MangoFarmWebsite() {
     Pay using UPI:
   </p>
 
-  <p className="text-xl font-semibold text-green-600">
-    8106819899@ybl
-  </p>
+  <a
+  href="upi://pay?pa=yourupi@oksbi&pn=PA Mango Farm"
+  className="text-xl font-semibold text-green-600 underline"
+>
+  Pay via UPI
+</a>
 
   <p className="mt-4 text-gray-600">
     After payment, please share payment screenshot on WhatsApp for order confirmation.
